@@ -1,0 +1,24 @@
+<p-tabView>
+    <p-tabPanel header="לפי אנשים" rightIcon="pi pi-users" style="font-size: 3em;" tooltip="לפי אנשים"
+        (click)="isAbout=false">
+        <app-by-min></app-by-min>
+    </p-tabPanel>
+
+    <p-tabPanel header="לפי תחומים" rightIcon="pi pi-star" tooltip="לפי תחומים">
+        <!-- <p-chart type="polarArea" [data]="data"></p-chart> -->
+        <app-by-limit></app-by-limit>
+
+    </p-tabPanel>
+    <p-tabPanel header="לפי אזור" rightIcon="pi pi-star" tooltip="לפי אזור">
+        <!-- <p-chart type="polarArea" [data]="data"></p-chart> -->
+        <app-by-area></app-by-area>
+
+    </p-tabPanel>
+</p-tabView>
+
+
+
+
+<!-- <p-chart type="polarArea" [data]="data"></p-chart> -->
+<!-- <p-chart type="pie" [data]="limiitService.listLimit"></p-chart> -->
+<!-- <p-chart type="doughnut" [data]="data"></p-chart> -->

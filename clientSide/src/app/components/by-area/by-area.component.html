@@ -1,0 +1,11 @@
+<agm-map style="height: 300px" [latitude]="lat" [longitude]="lng">
+    <div *ngFor='let item of listU'>
+        <agm-marker [latitude]="item.AddressX" [longitude]="item.AddressY" [markerClickable]="true">
+            <agm-info-window>{{item.FName}} {{item.LName}}</agm-info-window>
+        </agm-marker>
+
+
+    </div>
+
+    <!-- <agm-marker [latitude]="userCorrent.AddressX" [longitude]="userCorrent.AddressY"></agm-marker> -->
+</agm-map> <br>

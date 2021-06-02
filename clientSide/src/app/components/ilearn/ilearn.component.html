@@ -1,0 +1,187 @@
+<!-- הקומפוננטה הזו מציגה את כל השיעורים שהמשתמש לימד- וזה נמצא בהסטוריית השיעורים של המשתמש -->
+
+<!-- <div class="card">
+    <p-table [value]="listLessons">
+        <ng-template pTemplate="header">
+            <tr>
+                <th pSortableColumn="NameL">שם השיעור הנלמד <p-sortIcon field="NameL"></p-sortIcon></th>
+                <th pSortableColumn="NameT">שם המורה המלמדת <p-sortIcon field="NameT"></p-sortIcon></th>
+                <th pSortableColumn="NameD">תאריך השיעור שהתבצע <p-sortIcon field="NameD"></p-sortIcon></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr *ngFor='let item of listLessons'>
+                <td>{{item.CodeLimit}}</td>
+                <td>{{item.CodeTeacher}}</td>
+                <td>ygf</td> 
+            </tr>
+        </ng-template>
+    </p-table>
+</div> -->
+
+
+
+<!-- <p-fullCalendar #fc class="mmm" [events]="events" [options]="options"   ></p-fullCalendar> -->
+<br><br>
+
+
+<!-- ============================ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ui-helper-clearfix" style="text-align: left">
+
+<h2>השיעורים שלמדתי</h2>
+</div>
+<button type="button" pButton icon="pi pi-file-pdf" iconPos="left" label="PDF"  class="ui-button-warning"></button>
+
+
+<p-table [columns]="headersOfILearn"   [value]="listLessons"   [paginator]="true" [rows]="8" [showCurrentPageReport]="true"
+currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th *ngFor="let col of columns"     [pSortableColumn]="col.field">
+                {{col.header}}
+                <p-sortIcon [field]="col.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+
+            </th>
+            <th>לתגובה על המורה</th>
+            <th>עוד משהוא</th>
+
+           
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+            <td *ngFor="let col of columns">
+                {{rowData[col.field]}}
+            </td>
+            <td><button type="button" (click)="showBasicDialog()" pButton icon="pi pi-plus-circle" label=" לחץ עלי" id="mm"></button>
+            <p-dialog header=" תגובה על המורה שלימד אותך" [(visible)]="displayBasic" [style]="{width: '50vw'}" [baseZIndex]="10000">
+                <h3 class="first"></h3>
+<p-editor  [style]="{'height':'320px'}"></p-editor>
+   <div class="p-grid" style="width:250px;margin-bottom:10px">
+    <div class="p-col-12"><p-radioButton name="group1" value="Option 1" label="תגובה" [(ngModel)]="val1" inputId="opt1"></p-radioButton></div>
+    <div class="p-col-12"><p-radioButton name="group1" value="Option 2" label="המלצה" [(ngModel)]="val1" inputId="opt2"></p-radioButton></div>
+   </div>
+
+<button pButton type="button" label="Clear" icon="pi pi-times" (click)="text1=null"></button>
+
+                <button type="button" pButton icon="pi pi-check-circle"  label=" לשמירת התגובה"></button>
+
+            </p-dialog></td> 
+            <td>
+                <div class="w3-container">
+    
+                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Animated Modal</button>
+                  
+                    <div id="id01" class="w3-modal">
+                      <div class="w3-modal-content w3-animate-top w3-card-4">
+                        <header class="w3-container w3-teal"> 
+                          <span onclick="document.getElementById('id01').style.display='none'" 
+                          class="w3-button w3-display-topright">&times;</span>
+                          <h2>תגובה על המורה</h2>
+                        </header>
+                        <div class="w3-container">
+                            <br><br>
+                            <p-editor  [style]="{'height':'320px'}"></p-editor>
+                                          <div class="p-col-12"><p-radioButton name="group1" value="לתלונה" label="תלונה"  inputId="opt1" ></p-radioButton></div>
+                                          <div class="p-col-12"><p-radioButton name="group1" value="להמלצה" label="המלצה"  inputId="opt1"></p-radioButton></div>
+<br>            </div>
+                        <footer class="w3-container w3-teal">
+                          <p><button type="button" pButton icon="pi pi-check-circle"  label=" לשמירת התגובה"></button>
+                          </p>
+                        </footer>
+                      </div>
+                    </div>
+                  </div>
+            </td>
+
+        
+        </tr>
+    </ng-template>
+</p-table>
+    <!-- <table>
+        <tr>
+          <th>שם השיעור הנלמד</th>
+          <th>שם המורה המלמדת</th>
+          <th>תאריך השיעור שהתבצע</th>
+          <th>להמלצה על המורה</th>
+        </tr>
+        <tr *ngFor='let item of listLessons'>
+            <td>{{item.CodeLimit}}</td>
+            <td>{{item.CodeTeacher}}</td>
+            <td>ygf</td>   -->
+
+
+
+<!-- 
+            <td><button type="button" (click)="showBasicDialog()" pButton icon="pi pi-plus-circle" label=" לחץ עלי" id="mm"></button></td> 
+            <p-dialog header=" המלצה על המורה שלימד אותך" [(visible)]="displayBasic" [style]="{width: '50vw'}" [baseZIndex]="10000">
+                <div class="p-formgroup-inline">
+
+                    <h3 class="first"></h3>
+<p-editor [(ngModel)]="text1" [style]="{'height':'320px'}"></p-editor>
+       <p>Value: {{text1||'empty'}}</p>
+
+<button pButton type="button" label="Clear" icon="pi pi-times" (click)="text1=null"></button>
+
+                    <button type="button" pButton icon="pi pi-check-circle"  label=" לשמירת ההמלצה"></button>
+
+                </div></p-dialog>
+            
+        </tr>
+    </table> -->
+
+
+
+
+    <!-- <input type="text" value="סך השיעורים שלמדת"><b>{{numlessens}}</b> <br> -->
+    <a>  {{numlessens}}  :סך השיעורים שלמדת עד כה</a><br>
+    <a>  נותרו לך עוד- שיעורים ללמוד</a><br>
+<h1>{{numLessonITeach}} כמה שיעורים לימדתי</h1>
+<h1>שיעורים {{numlessens}} נותרו לי ללמוד עוד</h1>
+
+    <br>
+    <a>{{lessonsService.numlessens2}}</a>
+   <button >לצפייה</button>
+
+    <input type="text" value="נותרו לך עוד">

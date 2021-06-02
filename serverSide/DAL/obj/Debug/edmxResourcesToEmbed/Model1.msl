@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LoveToLerningModelStoreContainer" CdmEntityContainer="LoveToLerningEntities">
+    <EntitySetMapping Name="DiplomasToLimitToTeacher">
+      <EntityTypeMapping TypeName="LoveToLerningModel.DiplomasToLimitToTeacher">
+        <MappingFragment StoreEntitySet="DiplomasToLimitToTeacher">
+          <ScalarProperty Name="CodeDiplomaToLimitToTeacher" ColumnName="CodeDiplomaToLimitToTeacher" />
+          <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+          <ScalarProperty Name="Diploma" ColumnName="Diploma" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lessons">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Lessons">
+        <MappingFragment StoreEntitySet="Lessons">
+          <ScalarProperty Name="CodeLesson" ColumnName="CodeLesson" />
+          <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+          <ScalarProperty Name="CodeTeacher" ColumnName="CodeTeacher" />
+          <ScalarProperty Name="CodeStudent" ColumnName="CodeStudent" />
+          <ScalarProperty Name="DateLesson" ColumnName="DateLesson" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Limit">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Limit">
+        <MappingFragment StoreEntitySet="Limit">
+          <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+          <ScalarProperty Name="NameLimit" ColumnName="NameLimit" />
+          <ScalarProperty Name="CodeParentLimit" ColumnName="CodeParentLimit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LimitToTeacher">
+      <EntityTypeMapping TypeName="LoveToLerningModel.LimitToTeacher">
+        <MappingFragment StoreEntitySet="LimitToTeacher">
+          <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+          <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+          <ScalarProperty Name="CodeTeacher" ColumnName="CodeTeacher" />
+          <ScalarProperty Name="TryYear" ColumnName="TryYear" />
+          <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recommendation">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Recommendation">
+        <MappingFragment StoreEntitySet="Recommendation">
+          <ScalarProperty Name="CodeRecommendation" ColumnName="CodeRecommendation" />
+          <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+          <ScalarProperty Name="RecommendationText" ColumnName="RecommendationText" />
+          <ScalarProperty Name="Reply" ColumnName="Reply" />
+          <ScalarProperty Name="NotTime" ColumnName="NotTime" />
+          <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Request">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="CodeRequest" ColumnName="CodeRequest" />
+          <ScalarProperty Name="CodeStudent" ColumnName="CodeStudent" />
+          <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+          <ScalarProperty Name="MaxCosting" ColumnName="MaxCosting" />
+          <ScalarProperty Name="PlayedForTime" ColumnName="PlayedForTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sector">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Sector">
+        <MappingFragment StoreEntitySet="Sector">
+          <ScalarProperty Name="IdSector" ColumnName="IdSector" />
+          <ScalarProperty Name="NameSector" ColumnName="NameSector" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="LoveToLerningModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Times">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Times">
+        <MappingFragment StoreEntitySet="Times">
+          <ScalarProperty Name="IdTime" ColumnName="IdTime" />
+          <ScalarProperty Name="NameTime" ColumnName="NameTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeToUser">
+      <EntityTypeMapping TypeName="LoveToLerningModel.TimeToUser">
+        <MappingFragment StoreEntitySet="TimeToUser">
+          <ScalarProperty Name="CodeTimeToUser" ColumnName="CodeTimeToUser" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdTime" ColumnName="IdTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TryToLimitToTeacher">
+      <EntityTypeMapping TypeName="LoveToLerningModel.TryToLimitToTeacher">
+        <MappingFragment StoreEntitySet="TryToLimitToTeacher">
+          <ScalarProperty Name="CodeTryToLimitToTeacher" ColumnName="CodeTryToLimitToTeacher" />
+          <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+          <ScalarProperty Name="NamePlaceTeach" ColumnName="NamePlaceTeach" />
+          <ScalarProperty Name="MailRecommend" ColumnName="MailRecommend" />
+          <ScalarProperty Name="PhoneRecommend" ColumnName="PhoneRecommend" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Useres">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Useres">
+        <MappingFragment StoreEntitySet="Useres">
+          <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CodeStreet" ColumnName="CodeStreet" />
+          <ScalarProperty Name="CodeSector" ColumnName="CodeSector" />
+          <ScalarProperty Name="Min" ColumnName="Min" />
+          <ScalarProperty Name="AgeMin" ColumnName="AgeMin" />
+          <ScalarProperty Name="AgeMax" ColumnName="AgeMax" />
+          <ScalarProperty Name="AddressX" ColumnName="AddressX" />
+          <ScalarProperty Name="AddressY" ColumnName="AddressY" />
+          <ScalarProperty Name="MinToLearn" ColumnName="MinToLearn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Waiting">
+      <EntityTypeMapping TypeName="LoveToLerningModel.Waiting">
+        <MappingFragment StoreEntitySet="Waiting">
+          <ScalarProperty Name="WaitingID" ColumnName="WaitingID" />
+          <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+          <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+          <ScalarProperty Name="CodeTime" ColumnName="CodeTime" />
+          <ScalarProperty Name="CodeMin" ColumnName="CodeMin" />
+          <ScalarProperty Name="CodeSector" ColumnName="CodeSector" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

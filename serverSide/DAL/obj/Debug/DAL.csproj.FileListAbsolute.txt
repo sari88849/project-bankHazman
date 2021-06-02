@@ -1,0 +1,93 @@
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\DAL.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\EntityFramework.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\EntityFramework.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\obj\Debug\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\obj\Debug\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.DmfSqlClrWrapper.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\DAL\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\obj\Debug\DAL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\DAL\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\DAL\obj\Debug\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\DAL.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.DmfSqlClrWrapper.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\obj\Debug\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\DAL\obj\Debug\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\DAL\obj\Debug\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\DAL\obj\Debug\DAL.pdb

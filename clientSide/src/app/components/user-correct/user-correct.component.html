@@ -1,0 +1,172 @@
+<!-- הקומפוננטה הזו- לאחר שהמשתמ בוחר את הדברים המתאימים לו- מוצגים בפניו רשימת המורים המתאימים -->
+<div class="w3-bar w3-light-grey w3-border w3-xlarge">
+
+  <a class="w3-bar-item w3-button" (click)='toListing()' style="width: 20%;"><i class="pi pi-calendar"></i> <br>מעקב
+    אישי</a>
+  <a class="w3-bar-item w3-button" (click)='MyItem()' style="width: 20%;"><i class="pi pi-pencil"></i><br>פרטים
+    אישיים</a>
+  <a class="w3-bar-item w3-button w3-green" (click)='AddRequest()' style="width: 20%;"><i
+      class="pi pi-plus-circle"></i><br>בקשת
+    שיעור</a>
+  <a class="w3-bar-item w3-button" (click)='getUsers()' style="width: 20%;"><i class="pi pi-id-card"></i><br>בקשות שלא
+    אושרו</a>
+  <a class="w3-bar-item w3-button" (click)='clalim()' style="width: 20%;"><i class="pi pi-heart"></i><br>...קצת
+    עלינו</a>
+
+</div>
+<hr />
+<!-- <body> -->
+<h2 *ngIf='ifShow==false && this.listezer.length>0' style="text-align: center;">המערכת מציגה את המורים המתאימים</h2>
+
+<div *ngIf='ifShow==true'>
+  <h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    המערכת
+    מחפשת את המורים/ות המתאימים</h2>
+  <br><br><br><br><br>
+  <div class="wrapper">
+    <span class="circle circle-1"></span>
+    <span class="circle circle-2"></span>
+    <span class="circle circle-3"></span>
+    <span class="circle circle-4"></span>
+    <span class="circle circle-5"></span>
+    <span class="circle circle-6"></span>
+    <span class="circle circle-7"></span>
+    <span class="circle circle-8"></span>
+  </div>
+
+</div>
+<br><br>
+
+<!-- <div class="container">
+
+  <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+    <circle cx="170" cy="170" r="160" stroke="#E2007C" />
+    <circle cx="170" cy="170" r="135" stroke="#404041" />
+    <circle cx="170" cy="170" r="110" stroke="#E2007C" />
+    <circle cx="170" cy="170" r="85" stroke="#404041" />
+  </svg>
+
+</div> -->
+
+
+<!-- <p-progressBar mode="indeterminate" [style]="{'height': '6px'}"></p-progressBar> -->
+<div *ngIf='ifShow==false'>
+  <div class="row" style="margin-left: 2.5%;">
+    <!-- <div class="col-6"> -->
+    <div *ngFor='let a of listezer'>
+      <div style="width: 800px;">
+        <p-card style="width: 50%;" header="{{a.FName}} {{a.LName}} {{a.Phone}}">
+
+          <h5>המרחק בין האנשים- {{a.dist|number}} מטר</h5>
+          <agm-map style="height: 300px" id="map" [latitude]="lat" [longitude]="lng" [latitude]="a.AddressX"
+            [longitude]="a.AddressY">
+            <!-- <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker> -->
+            <agm-marker [latitude]="a.AddressX" [longitude]="a.AddressY">
+              <agm-info-window>{{a.FName}} {{a.LName}}</agm-info-window>
+
+            </agm-marker>
+            <agm-marker [latitude]="this.userService.CurrentUser.AddressX"
+              [longitude]="this.userService.CurrentUser.AddressY">
+              <agm-info-window>{{this.userService.CurrentUser.FName}} {{this.userService.CurrentUser.LName}}
+              </agm-info-window>
+            </agm-marker>
+            <agm-polygon *ngFor='let path of a.path' [strokeColor]="'#083478'" [strokeWeight]="4" [paths]="path">
+            </agm-polygon>
+            <!-- <agm-marker [latitude]="userCorrent.AddressX" [longitude]="userCorrent.AddressY"></agm-marker> -->
+          </agm-map> <br>
+          <br>
+
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target='#demo'>המלצות
+            על מורה
+            זו</button>
+
+          <br>
+
+
+          <div id='demo' *ngFor='let item of a.listRecommendation' class="collapse">
+            <div [innerHTML]="item.RecommendationText"></div>
+            <div *ngIf='!a.listRecommendation'>אין המלצות</div>
+          </div>
+          <br>
+
+          <div
+            style="background-color: burlywood; height: 30px; font-size: 120%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <p-radioButton style="margin-left: 1.5%;" name="choose" (click)="save(a)" inputId="opt1">
+            </p-radioButton> <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 1.5%;" width="16" height="16"
+              fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg> <b style="margin-left: 1.5%;">לבחירת המורה</b>
+          </div>
+
+        </p-card>
+
+
+
+        <!-- <li>{{a.FName}} {{a.LName}} {{a.Phone}} {{a.dist}} <div class="p-col-12">
+            <p-radioButton label="לבחירת המורה" name="choose" (click)="save(a)" inputId="opt1"></p-radioButton> -->
+
+
+      </div>
+
+      <br>
+
+
+
+    </div>
+  </div>
+
+  <p *ngIf='this.sendMail==true' class="animate__animated animate__shakeY animate__repeat-3"
+    style="background-color: palevioletred; text-align: center; font-size: 150%;">המייל
+    נשלח בהצלחה</p>
+  <!-- animate__bounceInDown -->
+  <hr />
+  <input *ngIf='this.listezer.length>0 && this.sendMail==false' pButton
+    style="margin-left: 25%; width: 60%; height: 40px;" type="button" value="שלח בקשה עם פרטיך למורה המבוקש"
+    (click)="SendMail()">
+  <br>
+  <br>
+
+  <!-- </div> -->
+
+  <!-- animate__pulse -->
+
+  <div *ngIf='this.listezer.length==0' style="text-align: center;">
+
+
+    <h1>המערכת לא מצאה נתונים המתאימים לבקשתך</h1>
+    <h2>באפשרותך- להכניס את פרטי השיעור לרשימת ההמתנות</h2>
+    <h2>ובמידה ותמצא התאמה- המערכת תעדכן אותך במייל</h2>
+    <br><br>
+    <button style=" width: 30%; background-color: rgb(66, 146, 93); color: white; font-size: 130%;"
+      (click)='saveLesson()'>לשמירת פרטי השיעור</button>
+
+  </div>
+</div>
+
+
+
+<p-dialog header="" [(visible)]="openModal" [modal]="true" [style]="{width: '50vw'}" [baseZIndex]="10000"
+  [draggable]="false" [resizable]="false">
+  <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 45%; color:rgb(65, 201, 126)" width="80" height="80"
+    fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path
+      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+  </svg>
+  <div style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+    <h3>השיעור נוסף לרשימת ההמתנה</h3>
+    <h3>במידה ותמצא התאמה עם מורה</h3>
+    <h3>תועדכן אוטומטית במייל</h3>
+  </div>
+  <p-footer>
+    <button type="button" pButton (click)='this.openModal=false' label="הבנתי"></button>
+
+  </p-footer>
+</p-dialog>
+
+<!-- </body> -->
+<!-- <div *ngIf="listUsers==null"><h1>hello</h1></div> -->
+
+<!-- <img src='assets/picture/log7.jpg'></img>    -->
+<!-- <img src='http://localhost:4200/assets/picture/log7.jpg'></img>   -->

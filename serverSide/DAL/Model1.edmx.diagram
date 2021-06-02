@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d55b6de6b0de471ab501c12a52d5b427" Name="Diagram1">
+        <EntityTypeShape EntityType="LoveToLerningModel.DiplomasToLimitToTeacher" Width="1.5" PointX="10.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Lessons" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Limit" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.LimitToTeacher" Width="1.5" PointX="8.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Recommendation" Width="1.5" PointX="10.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Request" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Sector" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Times" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.TimeToUser" Width="1.5" PointX="5.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.TryToLimitToTeacher" Width="1.5" PointX="10.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Useres" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoveToLerningModel.Waiting" Width="1.5" PointX="8.25" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="LoveToLerningModel.FK_DiplomasToLimitToTeacher_LimitToTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Lessons_Limit" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Lessons_Useres" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Lessons_Useres1" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_LimitToTeacher_Limit" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Request_Limit" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Waiting_Limit" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_LimitToTeacher_Useres" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Recommendation_LimitToTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_TryToLimitToTeacher_LimitToTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Request_Useres" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Useres_Sector" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Waiting_Sector" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_TimeToUser_Times" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Waiting_Times" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_TimeToUser_Useres" ManuallyRouted="false" />
+        <AssociationConnector Association="LoveToLerningModel.FK_Waiting_Useres" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,171 @@
+<!-- הקומפוונטה הזו היא- הסטוריית השיעורים של המשתמש- בתוכה ישנם 2 קומפוננטות שפועלות -->
+<!-- <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button (click)="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <br>
+  <img src="../../../assets/picture/getUser1.jpg" alt="" id="xxx"
+    style="width: 35%; text-align: center; margin-left: 35%;" (click)="getUsers()"><br> -->
+<!-- <a href="#" class="w3-bar-item w3-button" style="text-align: center;" (click)="getUsers()" >להצגת המשתמשים</a> -->
+<!-- <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">להצגת
+    המשתמשים</button>
+
+  <br><br><br>
+  <img src="../../../assets/picture/ilearn.jpg" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+    (click)="toListing()">
+  <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לתפריט
+    הלימודים</button>
+  <br><br><br> -->
+<!-- <img src="../../../assets/picture/myItem.png" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+    (click)="MyItem()">
+  <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לעדכון
+    הפרטים</button>
+  <br> <br><br>
+  <img src="../../../assets/picture/request.jpg" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+    (click)="AddRequest()">
+  <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לבקשת
+    שיעור</button> -->
+
+<!-- <a href="#" class="w3-bar-item w3-button">Link 2</a>
+   <a href="#" class="w3-bar-item w3-button">Link 3</a> -->
+<!-- </div> -->
+
+<div class="w3-bar w3-light-grey w3-border w3-xlarge">
+
+  <a class="w3-bar-item w3-button w3-green" (click)='toListing()' style="width: 20%;"><i class="pi pi-calendar"></i>
+    <br>מעקב
+    אישי</a>
+  <a class="w3-bar-item w3-button" (click)='MyItem()' style="width: 20%;"><i class="pi pi-pencil"></i><br>פרטים
+    אישיים</a>
+  <a class="w3-bar-item w3-button" (click)='AddRequest()' style="width: 20%;"><i class="pi pi-plus-circle"></i><br>בקשת
+    שיעור</a>
+  <a class="w3-bar-item w3-button" (click)='getUsers()' style="width: 20%;"><i class="pi pi-id-card"></i><br>בקשות שלא
+    אושרו</a>
+  <a class="w3-bar-item w3-button" (click)='clalim()' style="width: 20%;"><i class="pi pi-heart"></i><br>...קצת
+    עלינו</a>
+
+</div>
+<hr />
+
+<!-- <div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge w3-right" (click)="openRightMenu()">&#9776;</button>
+  <div class="w3-container">
+    <h1></h1>
+  </div>
+</div> -->
+<h1>הסטורית השיעורים שלי</h1>
+<br>
+<button style="margin-left: 2%; width: 55px; height: 55px;" title="הדפסה" onclick="window.print()">
+  <!-- <i style="width: 200px; height: 100px;" class="pi pi-print" title="הדפסה"></i> -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-printer-fill"
+    viewBox="0 0 16 16">
+    <path
+      d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z" />
+    <path
+      d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+  </svg>
+</button>
+
+
+<br>
+
+<div id="aaa" *ngIf="eventsObs | async">
+  <p-fullCalendar #fc id="mmm" [events]="events" [options]="options"></p-fullCalendar>
+</div>
+
+
+
+
+
+
+
+<br><br>
+
+
+
+<h1>{{numLessonITeach}} כמה שיעורים אני לימדתי</h1>
+<h1> {{numlessens}} אני למדתי</h1>
+<h1>נותרו לי ללמוד עוד {{numLessonITeach-numlessens}}</h1>
+
+<br>
+
+
+<!-- showModal- כשאת התלמידה -->
+<p-dialog header="פרטי השיעור שהתקיים" [(visible)]="openModal" [modal]="true" [style]="{width: '50vw'}"
+  [baseZIndex]="10000" [draggable]="false" [resizable]="false">
+
+  <div class="p-formgroup-inline">
+    <svg xmlns="http://www.w3.org/2000/svg" style="color:rgb(67, 148, 90); margin-left: 45%;" width="80" height="80"
+      fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+      <path
+        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+      <path
+        d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z" />
+    </svg>
+    <div style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+      <br>
+      <h3>שם המורה המלמדת: <b>{{usert}}</b></h3>
+      <h3>תחום - <b>{{limit}}</b></h3>
+      <h3><b> {{dateN|date}}</b> -בתאריך</h3>
+    </div><br>
+    <!-- <h4>{{userService.CurrentUser.FName}} {{userService.CurrentUser.LName}}</h4> -->
+    <h4 style="text-align: center;">מקום להמלצות או תגובות על המורה</h4>
+    <p-editor [(ngModel)]="text" [style]="{'height':'320px'}"></p-editor>
+    <!-- <p>Value: {{text||'empty'}}</p> -->
+    <!-- <button pButton type="button" label="Clear" icon="pi pi-times" (click)="text=null"></button> -->
+    <br>
+    <h4 style="text-align: center;">עליך לבחור האם כתבת על המשתמש תגובה או המלצה</h4>
+    <div class="p-grid" style="width:250px;margin-left:45%">
+      <div class="p-col-12">
+        <p-radioButton name="group1" value="המלצה" label="המלצה" [(ngModel)]="val1" inputId="opt1">
+        </p-radioButton>
+      </div>
+      <div class="p-col-12">
+        <p-radioButton name="group1" value="תגובה" label="תגובה" [(ngModel)]="val2" inputId="opt2">
+        </p-radioButton>
+      </div>
+
+    </div>
+    <!-- Selected Value = {{val1||'none'}} -->
+
+    <br>
+
+  </div>
+  <p-footer>
+    <button type="button" (click)='AddRecommendation()' pButton label="לאישור ההמלצה"></button>
+  </p-footer>
+</p-dialog>
+
+
+
+<!-- כשאת המורה- showModal -->
+<p-dialog header="פרטי השיעור שהתקיים" [(visible)]="openMod" [modal]="true" [style]="{width: '50vw'}"
+  [baseZIndex]="10000" [draggable]="false" [resizable]="false">
+
+  <div class="p-formgroup-inline">
+    <svg xmlns="http://www.w3.org/2000/svg" style="color:rgb(67, 148, 90); margin-left: 45%;" width="80" height="80"
+      fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+      <path
+        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+      <path
+        d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z" />
+    </svg>
+    <div style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      <br>
+      <h3>לימדת את- <b>{{users}}</b></h3>
+      <h3>תחום -<b> {{limit}} </b></h3>
+      <h3><b>{{dateN|date}}</b> -בתאריך </h3>
+    </div>
+    <!-- <input type="text" pInputText [(ngModel)]="usert" disabled><label>המורה</label><br><br>
+    <input type="text" pInputText [(ngModel)]="users" disabled> <label>התלמיד</label><br><br>
+    <input type="text" pInputText [(ngModel)]="limit" disabled> <label>ילמדו שיעור</label><br><br> -->
+    <!-- <p-editor [(ngModel)]="text" [style]="{'height':'320px'}"></p-editor>
+    <p>Value: {{text||'empty'}}</p> -->
+
+    <!-- <button pButton type="button" label="Clear" icon="pi pi-times" (click)="text=null"></button>
+    <br> -->
+
+  </div>
+  <p-footer>
+  </p-footer>
+</p-dialog>
+
+<!-- <router-outlet></router-outlet> -->

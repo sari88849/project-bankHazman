@@ -1,0 +1,458 @@
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\MyProject.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\MyProject.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\MyProject.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csc.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csc.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csc.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csi.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csi.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\csi.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Console.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\vbc.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\vbc.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\BL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\DTO.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Web.Http.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\EntityFramework.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\BL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\DTO.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Web.Http.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\DAL.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\EntityFramework.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\obj\Debug\MyProject.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\obj\Debug\MyProject.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\MyProject\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\MyProject.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\MyProject.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\MyProject.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csc.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csc.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csc.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csi.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csi.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\csi.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Console.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\vbc.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\vbc.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\BL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\DTO.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Web.Http.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\BL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\DTO.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\EntityFramework.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Web.Http.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\DAL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\DAL.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\obj\Debug\MyProject.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\obj\Debug\MyProject.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\EntityFramework.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\MyProject.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\MyProject.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\MyProject.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csc.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csc.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csc.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csi.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csi.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\csi.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Console.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\vbc.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\vbc.rsp
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\BL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\DTO.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\EntityFramework.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Web.Http.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\DAL.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\BL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\DTO.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\EntityFramework.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Web.Http.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\DAL.pdb
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\bin\DAL.dll.config
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\obj\Debug\MyProject.dll
+C:\Users\1\Desktop\הפרויקט\17. פינקלשטיין ויהודה\MyProject1\MyProject\obj\Debug\MyProject.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\MyProject.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\MyProject.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\MyProject.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csc.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csc.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csc.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csi.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csi.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\csi.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Console.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\vbc.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\vbc.rsp
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\BL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\DAL.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\DTO.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\EntityFramework.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Web.Http.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\BL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\DTO.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\DAL.pdb
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\DAL.dll.config
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\EntityFramework.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Web.Http.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\obj\Debug\MyProject.dll
+C:\Users\דסי\Desktop\מסלול\הפרוייקט שלנו\מעודכן מכסליו\MyProject1\MyProject\obj\Debug\MyProject.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\MyProject.dll.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\MyProject.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\MyProject.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csc.exe
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csc.exe.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csc.rsp
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csi.exe
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csi.exe.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\csi.rsp
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Console.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\vbc.exe
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\vbc.rsp
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\BL.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\DTO.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\EntityFramework.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Web.Http.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\BL.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\DTO.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\DAL.dll.config
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\EntityFramework.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Web.Http.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\obj\Debug\MyProject.dll
+C:\Users\1\Desktop\בנקהזמן\MyProject1\MyProject\obj\Debug\MyProject.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\MyProject.dll.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\MyProject.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\MyProject.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csc.exe
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csc.exe.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csc.rsp
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csi.exe
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csi.exe.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\csi.rsp
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.AppContext.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Console.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\vbc.exe
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\vbc.exe.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\vbc.rsp
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\BL.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\DAL.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\DTO.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\EntityFramework.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\Newtonsoft.Json.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Net.Http.Formatting.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Web.Http.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Web.Http.WebHost.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\BL.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\DTO.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\DAL.pdb
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\DAL.dll.config
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\EntityFramework.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\Newtonsoft.Json.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Net.Http.Formatting.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Web.Http.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\System.Web.Http.WebHost.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\obj\Debug\MyProject.csproj.CopyComplete
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\obj\Debug\MyProject.dll
+C:\Users\1\Desktop\בנקהזמן\serverSide\MyProject\obj\Debug\MyProject.pdb

@@ -1,0 +1,106 @@
+<!-- הקומפוננטה הזו- לאחר שהמשתמש זוהה יש לו אפשרויות למה להכנס... -->
+<!-- <p-toolbar> -->
+<!-- <div class="ui-toolbar-group-left"> --><br>
+<!-- //////////// -->
+<!-- <input id="name" [(ngModel)]="name" type="text" id="big"><br><br> -->
+<!-- //////////// -->
+<!-- <p-tabMenu [model]="items2" [activeItem]="activeItem">
+    <ng-template pTemplate="item" let-item let-i="index">
+        <div style="position: relative; text-align: center; min-width: 10em">
+            <div class="ui-menuitem-icon" [ngClass]="item.icon" *ngIf="item.icon" style="font-size: 2em"></div>
+            <div class="ui-menuitem-text">
+                {{item.label}}
+            </div> -->
+<!-- <a tabindex="0" class="ui-menuitem-icon" style="position: absolute; right: -1em; top: -.5em; padding: 0"
+                *ngIf="i !== 0">
+                <span class="pi pi-times"></span>
+            </a> -->
+<!-- (click)="closeItem($event, i)" -->
+<!-- </div>
+    </ng-template>
+</p-tabMenu> -->
+
+<div class="w3-bar w3-light-gray w3-border w3-xlarge">
+    <a class="w3-bar-item w3-button w3-green" (click)='toListing()' style="width: 20%; "><i class="pi pi-calendar"></i>
+        <br>מעקב
+        אישי</a>
+    <a class="w3-bar-item w3-button" (click)='MyItem()' style="width: 20%;"><i class="pi pi-pencil"></i><br>פרטים
+        אישיים</a>
+    <a class="w3-bar-item w3-button" (click)='AddRequest()' style="width: 20%;"><i
+            class="pi pi-plus-circle"></i><br>בקשת שיעור</a>
+    <a class="w3-bar-item w3-button" (click)='getUsers()' style="width: 20%;"><i class="pi pi-id-card"></i><br>בקשות שלא
+        אושרו</a>
+    <a class="w3-bar-item w3-button" (click)='clalim()' style="width: 20%;"><i class="pi pi-heart"></i><br>...קצת
+        עלינו</a>
+    <p [(ngModel)]="name"></p>
+</div>
+<hr />
+<br>
+<br><br><br>
+<br><br><br><br><br>
+
+
+<!--  -->
+
+<!-- <img src="../../../assets/picture/getUser1.jpg" alt="" id="xxx" style="width: 15%; text-align: center;margin-left:12%"
+    (click)="getUsers()">
+<img src="../../../assets/picture/ilearn.jpg" alt="" style="width: 15%; text-align: center; margin-left: 5%;"
+    (click)="toListing()">
+<img src="../../../assets/picture/myItem.png" alt="" style="width: 15%; text-align: center; margin-left: 5%;"
+    (click)="MyItem()">
+<img src="../../../assets/picture/request.jpg" alt="" style="width: 15%; text-align: center; margin-left: 5%;"
+    (click)="AddRequest()">
+
+<br><br>
+
+<button pButton type="button" (click)="getUsers()" id="www" style="margin-left: 15%;" label="להצגת המשתמשים"
+    icon=""></button>
+<button pButton type="button" (click)="toListing()" id="www" style="margin-left: 10%;" label="להצגת השיעורים שלימדת"
+    icon=""></button>
+<button routerLink="/ToLookMyItem" pButton type="button" id="www" style="margin-left: 8%;" label="להצגת פרטיך האישיים"
+    (click)="MyItem()" icon=""></button>
+
+<button pButton type="button" style="margin-left: 12%;" id="www" label="לבקשת שיעור" icon="pi-pi-plus"
+    (click)="AddRequest()"></button> -->
+
+<br><br>
+<!-- <div class="alert alert-primary" role="alert">
+    שלום לך משתמש יקר
+</div>
+<br>
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div> -->
+
+
+<!-- <div class="loader">Loading...</div>
+<div class="lds-spinner" style="margin-left: 50%;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div> -->
+<!-- ======================= -->
+<br><br><br>
+
+
+
+
+
+
+<router-outlet></router-outlet>
+<!-- </div> -->
+
+
+<!-- </p-toolbar> -->

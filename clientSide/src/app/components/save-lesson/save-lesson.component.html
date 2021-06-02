@@ -1,0 +1,234 @@
+<!-- הקומפוננטה הזו מציגה את השיעורים שבהמתנה -->
+
+<body>
+
+    <div class="w3-bar w3-light-grey w3-border w3-xlarge">
+
+        <a class="w3-bar-item w3-button" (click)='toListing()' style="width: 20%;"><i class="pi pi-calendar"></i>
+            <br>מעקב
+            אישי</a>
+        <a class="w3-bar-item w3-button" (click)='MyItem()' style="width: 20%;"><i class="pi pi-pencil"></i><br>פרטים
+            אישיים</a>
+        <a class="w3-bar-item w3-button" (click)='AddRequest()' style="width: 20%;"><i
+                class="pi pi-plus-circle"></i><br>בקשת
+            שיעור</a>
+        <a class="w3-bar-item w3-button w3-green" (click)='getUsers()' style="width: 20%;"><i
+                class="pi pi-id-card"></i><br>רשימת המתנה לשיעורים
+
+        </a>
+        <a class="w3-bar-item w3-button" (click)='clalim()' style="width: 20%;"><i class="pi pi-heart"></i><br>...קצת
+            עלינו</a>
+
+    </div>
+    <hr />
+
+
+    <!-- <div class="row"> -->
+    <!-- <div class="col-6"> -->
+    <div style="text-align: center;">
+        <br>
+        <h1 style="text-align: center;">שיעורים הממתינים למורה מתאים</h1>
+        <h4>כאן נאגרים כל בקשות המשתמשים במערכת שלא נמצא להם מענה</h4>
+        <br>
+        <hr />
+
+    </div>
+    <br>
+    <h4 style="text-align: center; color: rgb(50, 50, 173);">!ממתינים לשיעורים אלו מחכים לך</h4>
+    <br>
+    <div class="row">
+
+        <div *ngFor='let item of listLimitToTeacher'>
+            <div style="margin-left: 40%; text-align: center;">
+                <p-card header='מעוניין ללמוד {{item.NameLimit}} ' [style]="{width: '360px'}">
+                    <div>
+                        <h5>רוצה ללמוד ב {{item.NameTime}}</h5>
+                        <h5> אני {{item.CodeMin==1?"זכר":"נקבה"}}</h5>
+                        <h5>אני משתייך למגזר ה{{item.NameSector}}</h5>
+                        <h5>???האם את/ה מתאימ/ה ללמד אותי</h5>
+                    </div>
+                    <p-footer>
+                        <button pButton type="button" label="מתאים לי" (click)='saveThis(item)' icon="pi pi-check"
+                            style="margin-right: 70%"> </button><br>
+
+                    </p-footer>
+                </p-card>
+            </div>
+            <br>
+
+        </div>
+    </div>
+    <hr />
+    <hr />
+    <h4 style="text-align: center; color: rgb(50, 50, 173);">כאן אתה יכול באופן חד פעמי להיות מורה לתחומים שאינך מתקצע
+        בהם</h4>
+    <h4 style="text-align: center; color: rgb(50, 50, 173);">או להתגמש עם קריטריוני לימוד- שהזנת לעצמך עם הרשמתך למערכת
+    </h4>
+    <br>
+    <div class="row">
+
+        <div *ngFor='let item of listSaveLesson'>
+            <div style="margin-left: 40%; text-align: center;">
+                <p-card header='מעוניין ללמוד {{item.NameLimit}} ' [style]="{width: '360px'}">
+                    <div>
+                        <h5>רוצה ללמוד ב {{item.NameTime}}</h5>
+                        <!-- <h5 *ngIf='item.CodeMin==1'>
+                        <div style="color: crimson;"> {{item.CodeMin}}</div>
+                    </h5>
+                    <h5 *ngIf='item.CodeMin!=1'>
+                        <div style="background-color: cyan;"> {{item.CodeMin}}</div>
+                    </h5> -->
+                        <h5> אני {{item.CodeMin==1?"זכר":"נקבה"}}</h5>
+                        <h5>אני משתייך למגזר ה{{item.NameSector}}</h5>
+                        <h5>???האם את/ה מתאימ/ה ללמד אותי</h5>
+                    </div>
+                    <p-footer>
+                        <button pButton type="button" label="מתאים לי" (click)='save(item)' icon="pi pi-check"
+                            style="margin-right:70%"></button>
+
+                    </p-footer>
+                </p-card>
+            </div>
+            <br>
+        </div>
+        <!-- <div class="col-6">
+        <h1>בקשות לנושאים שלו קיימים</h1>
+        <br><br><br>
+        <button (click)='noLimit()'>הוסף תחום</button>
+        <div *ngIf='this.nolimit'>
+            <br><br>
+            <input type="text" pInputText placeholder="הכנס תחום">
+            <br>
+            <br>
+            <button [(ngModel)]='otherLimit'>הוסף</button>
+        </div>
+
+    </div> -->
+        <!-- </div> -->
+    </div>
+
+    <p-dialog header="" [(visible)]="openModal" [modal]="true" [style]="{width: '50vw'}" [baseZIndex]="10000"
+        [draggable]="false" [resizable]="false">
+
+        <div class="p-formgroup-inline">
+
+            <br>
+            <!-- <i class="pi pi-info"></i><br> -->
+            <!-- <i style="margin: auto;" class="pi pi-exclamation-triangle"></i><br> -->
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 45%; color: crimson;" width="80" height="80"
+                fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                <path
+                    d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                <path
+                    d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+            </svg><br><br>
+            <div
+                style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                <h2>תחום זה לא מופיע ברשימת התחומים הרשומים על שמך</h2>
+                <h2>?האם ברצונך ללמד תחום זה</h2>
+            </div>
+            <!-- Selected Value = {{val1||'none'}} -->
+
+            <br>
+
+        </div>
+        <p-footer>
+            <button *ngIf='ifClick!=true' type="button" (click)='sendMailToLesson()' pButton icon="pi pi-check"
+                label="אישור "></button>
+            <button *ngIf='ifClick!=true' type="button" (click)='this.openModal=false' pButton icon="pi pi-times"
+                label="ביטול "></button><br>
+            <!-- <div  class="spinner-grow" style="width: 3rem; height: 3rem;"
+            role="status">
+            <span class="sr-only">Loading...</span>
+        </div> -->
+            <div class="row" style="margin-left: 42%;" *ngIf='ifClick1==true && ifClick==false'>
+
+                <div style="margin-left: 5% ;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div style="margin-left: 5%;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div style="margin-left: 5%;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+
+            </div>
+
+            <div *ngIf='ifClick==true'>
+                <br>
+
+                <div class="alert alert-primary" role="alert"
+                    style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">
+                    <h4>השיעור נשלח במייל לך ולתלמיד</h4>
+                    <h4>במידה ותמצא התאמה בינך ובין התלמיד</h4>
+                    <h4>עליך לתאם עם התלמיד את השעה המותאמת לשניכם</h4>
+                    <h4>(: ולא לשכוח לעדכן את השיעור במערכת</h4>
+                    <button (click)='this.openModal=false'>הבנתי</button>
+                </div>
+            </div>
+        </p-footer>
+    </p-dialog>
+
+
+
+
+
+
+
+    <p-dialog header="" [(visible)]="openModal1" [modal]="true" [style]="{width: '50vw'}" [baseZIndex]="10000"
+        [draggable]="false" [resizable]="false">
+
+        <div class="p-formgroup-inline">
+
+            <br>
+            <div class="row" style="margin-left: 42%;" *ngIf='ifShow==false&& ifClick2==true'>
+
+                <div style="margin-left: 5% ;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div style="margin-left: 5%;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div style="margin-left: 5%;" class="spinner-grow text-danger" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+
+            </div><br>
+            <!-- <i class="pi pi-info"></i><br> -->
+            <!-- <i style="margin: auto;" class="pi pi-exclamation-triangle"></i><br> -->
+            <div *ngIf='ifShow==true'>
+                <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 45%; color:crimson" width="80" height="80"
+                    fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                </svg><br><br>
+                <div
+                    style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    <h3> בקשת השיעור נשלחה במייל לתלמיד </h3>
+                    <h3>לאחר שיש אישור שיעור מהתלמיד</h3>
+                    <h3>עליך לעדכן את השיעור במערכת</h3>
+                </div>
+                <!-- Selected Value = {{val1||'none'}} -->
+
+                <br>
+            </div>
+
+        </div>
+        <p-footer>
+            <button (click)='this.openModal1=false && this.ifShow=false' pButton icon="pi pi-check"
+                label="הבנתי"></button>
+        </p-footer>
+    </p-dialog>
+</body>
+<!-- <div *ngFor="let item of newMessageIcon">
+
+    <img src="http://localhost:64279/{{ item}}.png">
+</div> -->

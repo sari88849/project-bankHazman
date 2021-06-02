@@ -1,0 +1,36 @@
+body{
+    background-image: url('../../../assets/picture/reka1.jpg');
+    background-attachment: fixed;  
+  background-size: 100% 100%;
+  height: 100vh 
+}
+.hebrew-day {
+  text-align: right;
+  padding: 1rem 2rem 0.25rem 0.25rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  height:4rem;
+  width: 4rem;
+}
+.hebrew-day:hover, .hebrew-day.focused {
+  background-color: #e6e6e6;
+}
+.hebrew-day.selected {
+  background-color: #007bff;
+  color: white;
+}
+.outside {
+  color: lightgray;
+}
+.gregorian-num {
+  font-size: 0.5rem;
+  direction: ltr;
+}
+.cal{
+  height:5rem;
+  width: 5rem;
+}
+.days{
+  width: 50%;
+  height: 50%;
+}

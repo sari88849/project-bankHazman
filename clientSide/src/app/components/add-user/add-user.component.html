@@ -1,0 +1,269 @@
+<!-- קומפוננטה זו יוצרת משתמש חדש -->
+
+<body style="background-image: url('../../../assets/picture/reka1.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: 100% 100%;
+height: 100vh;
+display: fixed
+
+">
+
+
+  <h1>הוספת משתמש חדש</h1>
+  <div *ngIf='toshowitem==true'>
+    <form (ngSubmit)="AddUser()" #myForm="ngForm">
+
+
+
+      <p-toast id="panel"></p-toast>
+
+      <h3 class="first" style="text-align: center;">משתמש יקר מלא את פרטיך כדי שנוכל להוסיפך למערכת</h3>
+
+
+      <br>
+
+
+      <!-- <div class="p-col-12 p-md-4"> -->
+
+      <!-- </div> -->
+
+      <!-- ===========שם פרטי=========== -->
+      <div style="margin-left: 44%;">
+        <div>
+          <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+            <input type="text" name='fname' [(ngModel)]="user.FName" pInputText placeholder="שם פרטי"
+              #first_name="ngModel" required> </div>
+          <div style="color: red; margin-left: 2%;"
+            *ngIf="first_name.invalid &&(first_name.dirty || first_name.touched)">
+            <p *ngIf="first_name.errors.required">!!!שם פרטי- זהו שדה חובה</p>
+            <p *ngIf="first_name.errors.max">שם חייב להיות גדול מ-0</p>
+          </div><br>
+        </div>
+
+        <!-- =============שם משפחה================ -->
+
+        <div class="ui-inputgroup">
+          <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+          <input type="text" name='lname' [(ngModel)]="user.LName" pInputText placeholder="שם משפחה"
+            #last_name="ngModel" required> </div>
+        <div style="color: red; margin-left: 1%;" *ngIf="last_name.invalid &&(last_name.dirty || last_name.touched)">
+          <p *ngIf="last_name.errors.required">!!!שם משפחה- זהו שדה חובה</p>
+          <p *ngIf="last_name.errors.max">שם חייב להיות גדול מ-0</p>
+        </div><br>
+
+        <!-- ========================סיסמא=================== -->
+
+        <div class="ui-inputgroup">
+          <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+          <input type="text" name='password' [(ngModel)]="user.Password" pInputText placeholder="סיסמא" #pass="ngModel"
+            required min="4"> </div>
+        <div style="color: red; margin-left: 3%;" *ngIf="pass.invalid &&(pass.dirty || pass.touched)">
+          <p *ngIf="pass.errors.required">!!!סיסמא- זהו שדה חובה</p>
+        </div><br>
+
+
+        <!-- <span class="ui-float-label">
+      <input id="float-input" name="password" type="text" [(ngModel)]="user.Password" size="30" pInputText
+        #pass="ngModel" required min="5">
+      <div style="color: red;" *ngIf="pass.invalid &&(pass.dirty || pass.touched)">
+        <p *ngIf="pass.errors.required">!!!סיסמא- זהו שדה חובה</p>
+        <p *ngIf="pass.errors.min">אורך הסיסמא צריך להיות גדול מ-4</p>
+      </div>
+      <label for="float-input">הכנס סיסמא</label>
+    </span><br> -->
+
+        <!-- =======================תאריך לידה====================== -->
+
+
+
+        <!-- <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+      <input type="text" name='email' [(ngModel)]="user.Mail" pInputText placeholder="מייל" #mail="ngModel" required
+        min="4"> </div>
+    <div style="color: red;" *ngIf="mail.invalid &&(mail.dirty || mail.touched)">
+      <p *ngIf="mail.errors.required">!!!מייל- זהו שדה חובה</p>
+    </div><br> -->
+
+        <!-- =========================מייל=================== -->
+        <!-- <span class="ui-float-label">
+      <input id="float-input" name="email" #mail='ngModel' required type="text" [(ngModel)]="user.Mail" size="30"
+        pInputText>
+      <div style="color: red;" *ngIf="mail.invalid &&(mail.dirty || mail.touched)">
+        <p *ngIf="mail.errors.required">!!!מייל- זהו שדה חובה</p>
+      </div>
+      <label for="float-input">הכנס כתובת מייל </label>
+    </span><br> -->
+
+
+        <div class="ui-inputgroup">
+          <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+          <input type="text" name='email' [(ngModel)]="user.Mail" pInputText placeholder="מייל" #mail="ngModel" required
+            min="4"> </div>
+        <div style="color: red; margin-left: 3%;" *ngIf="mail.invalid &&(mail.dirty || mail.touched)">
+          <p *ngIf="mail.errors.required">!!!מייל- זהו שדה חובה</p>
+        </div><br>
+
+        <!-- =============================טלפון==================== -->
+        <!-- <span class="ui-float-label">
+      <input id="float-input" name="tel" #phone="ngModel" type="text" [(ngModel)]="user.Phone" size="30" pInputText
+        required>
+      <div style="color: red;" *ngIf="phone.invalid &&(phone.dirty || phone.touched)">
+        <p *ngIf="phone.errors.required">!!!טלפון- זהו שדה חובה</p>
+      </div>
+      <label for="float-input">הכנס מספר טלפון </label>
+    </span><br> -->
+
+
+        <div class="ui-inputgroup">
+          <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+          <input type="text" name='tel' [(ngModel)]="user.Phone" pInputText placeholder="פלאפון" #phone="ngModel"
+            required min="4"> </div>
+        <div style="color: red;margin-left: 2%;" *ngIf="phone.invalid &&(phone.dirty || phone.touched)">
+          <p *ngIf="phone.errors.required">!!!פלאפון- זהו שדה חובה</p>
+        </div><br>
+      </div>
+
+      <div style="margin-left: 45%;">
+        <!-- ===================בחירת מין================== -->
+        <p-dropdown [options]="minService.listMin" name="minim" #min="ngModel" optionLabel="NameMin"
+          [(ngModel)]="usermin" placeholder=":בחר מגדר" [showClear]="true" required>
+        </p-dropdown>
+        <div style="color: red ; margin-left: 1%;" *ngIf="min.invalid &&(min.dirty || min.touched)">
+          <p *ngIf="min.errors.required">!!!מגדר- זהו שדה חובה</p>
+        </div>
+        <br><br>
+
+        <!-- ===========================בחירת מגזר========================= -->
+        <p-dropdown [options]="listSector" name="migzar" #sector="ngModel" optionLabel="NameSector"
+          [(ngModel)]="sector1" placeholder=":בחר מגזר" [showClear]="true" required></p-dropdown>
+        <div style="color: red; margin-left: 1%;" *ngIf="sector.invalid &&(sector.dirty || sector.touched)">
+          <p *ngIf="sector.errors.required">!!!מגזר- זהו שדה חובה</p>
+        </div>
+      </div>
+      <br><br>
+      <!-- ==========================בחירת מיקום======================= -->
+      <!-- <label>היכן אתה גר סמן על המפה:</label> -->
+      <br>
+      <input style="margin-left: 44.8%;" matInput ngx-google-places-autocomplete #placesRef="ngx-places"
+        (onAddressChange)="handleAddressChange($event)" #place /><br>
+      <agm-map style="height: 300px" [latitude]="lat" [longitude]="lng" [agmDrawingManager]="drawing"
+        (onMapClick)="handleMapClick($event)" (onOverlayClick)="handleOverlayClick($event)">
+        <!-- <agm-marker [latitude]="this.lat" [longitude]="this.lng">
+      </agm-marker> -->
+      </agm-map>
+      <agm-drawing-manager #drawing="agmDrawingManager" [drawingMode]="'circle'"
+        [circleOptions]="{fillColor:'red', radius: 150}"></agm-drawing-manager>
+      <br>
+
+      <input style="margin-left: 35%; width: 30%; background-color: rgb(66, 146, 93); color: white; font-size: 130%;"
+        type="submit" value="שמור והמשך" id="ttt" class="btn " [disabled]="!myForm.valid"><br><br><br>
+
+
+
+    </form>
+  </div>
+  <!-- =======================גיל מינימאלי====================== -->
+  <!-- <span class="ui-float-label">
+    <input id="float-input" name="age_min" #min_age="ngModel" type="text" [(ngModel)]="user.AgeMin" size="30" pInputText
+      required>
+    <div style="color: red;" *ngIf="min_age.invalid &&(min_age.dirty || min_age.touched)">
+      <p *ngIf="min_age.errors.required">!!!גיל מינימאלי- זהו שדה חובה</p>
+    </div>
+    <label for="float-input">הכנס גיל מינמאלי</label>
+  </span><br> -->
+
+  <!-- ===========================גיל מקסימאלי================ -->
+  <!-- <span class="ui-float-label">
+    <input id="float-input" name="age_max" #max_age="ngModel" type="text" [(ngModel)]="user.AgeMax" size="30" pInputText
+      required>
+    <div style="color: red;" *ngIf="max_age.invalid &&(max_age.dirty || max_age.touched)">
+      <p *ngIf="max_age.errors.required">!!!גיל מקסימאלי- זהו שדה חובה</p>
+    </div>
+    <label for="float-input">הכנס גיל מקסימאלי </label>
+  </span><br> -->
+  <div *ngIf='toshowitem==false'>
+    <!-- בחירת זמן -->
+    <!-- <label>:בחר תחום שאתה מעוניין ללמד</label><br>
+
+  <h3 class="first"></h3>
+  <p-dropdown [options]="timesService.listTimes" optionLabel="NameTime"
+    style="color: crimson; margin-left: 41.6%; text-align: center; font-size: 200%;" [(ngModel)]="timeSave.CodeTime"
+    placeholder=":בחר זמן" [showClear]="true">
+  </p-dropdown><br><br> -->
+    <br>
+    <h3 style="text-align: center;">:בחר תחום שאתה מעוניין ללמד</h3><br>
+    <div style="margin-left: 44%;">
+      <button #btn type="button" pButton icon="pi pi-bars" style="width: 176px; height: 37px;" label="בחר תחום"
+        (click)="menu.toggle($event)"></button>
+      <p-tieredMenu #menu [model]="items" [popup]="true" aria-colspan="chooselimit(item.automationId)"></p-tieredMenu>
+      <br>
+    </div><br><br>
+    <div style="margin-left: 42%;">
+      <p-listbox style=" text-align: center;" name="nglim" [options]="limList" [(ngModel)]="selectedLimit"
+        optionLabel="NameLimit"></p-listbox>
+      <p>בחרת תחום: {{selectedLimit ? selectedLimit.NameLimit : 'none'}}</p>
+    </div>
+    <button style="margin-left: 47%;" (click)="del()">הסרת התחום</button><br><br><br>
+    <button style="margin-left: 35%; width: 30%; background-color: rgb(66, 146, 93); color: white; font-size: 130%;"
+      (click)="addLimitToTeacher()">לשמירת השינויים</button>
+
+    <p-dialog header="הוספת קטגוריה" [(visible)]="displayBasic" [style]="{width: '20vw'}" [baseZIndex]="10000">
+      <div class="p-formgroup-inline">
+
+        <br>
+
+
+        <div class="p-field">
+          <i class="pi pi-plus" style="font-size: 1em" id="bbb"></i>
+          <label for="LimitNew" class="p-sr-only"></label>
+          <input id="Limit" pInputText [(ngModel)]="nameLimitNew" type="text" pInputText placeholder="הקלד קטגוריה "
+            id="aaa">
+        </div>
+      </div>
+
+      <p-footer>
+
+        <button type="button" pButton icon="pi pi-bars" (click)="AddLimit()" label="אישור"></button>
+
+      </p-footer>
+    </p-dialog>
+  </div>
+
+
+  <p-dialog header="" [(visible)]="openModal" [modal]="true" [style]="{width: '50vw'}" [baseZIndex]="10000"
+    [draggable]="false" [resizable]="false">
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 45%; color:rgb(57, 182, 105)" width="80" height="80"
+      fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+      <path
+        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+      <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+    </svg>
+
+    <div style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      <br>
+      <h2>נוספת בהצלחה לרשימת המשתמשים של בנק הזמן</h2>
+      <h3>...כעת תוכל- כבר מעכשיו ללמוד וללמד</h3>
+      <h3>מערכת בנק הזמן מאחלת לך הצלחה לכל אורך הדרך</h3>
+      <br>
+    </div>
+
+    <p-footer>
+      <button (click)='home()' pButton label="לעמוד הבית"></button>
+
+    </p-footer>
+  </p-dialog>
+
+
+
+
+</body>
+
+
+<!-- <button (click)="AddUser()">הוסף</button><br> -->
+
+<router-outlet></router-outlet>
+
+<!-- <button #btn type="button" icon="pi pi-bars" style="width: 176px; height: 37px;" (click)="menu.toggle($event)">cjr
+  ,juo</button>  -->

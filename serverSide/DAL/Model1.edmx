@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LoveToLerningModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DiplomasToLimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeDiplomaToLimitToTeacher" />
+          </Key>
+          <Property Name="CodeDiplomaToLimitToTeacher" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeLimitToTeacher" Type="int" Nullable="false" />
+          <Property Name="Diploma" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Lessons">
+          <Key>
+            <PropertyRef Name="CodeLesson" />
+          </Key>
+          <Property Name="CodeLesson" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeLimit" Type="int" />
+          <Property Name="CodeTeacher" Type="int" Nullable="false" />
+          <Property Name="CodeStudent" Type="int" />
+          <Property Name="DateLesson" Type="date" />
+        </EntityType>
+        <EntityType Name="Limit">
+          <Key>
+            <PropertyRef Name="CodeLimit" />
+          </Key>
+          <Property Name="CodeLimit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameLimit" Type="nvarchar" MaxLength="50" />
+          <Property Name="CodeParentLimit" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeLimitToTeacher" />
+          </Key>
+          <Property Name="CodeLimitToTeacher" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeLimit" Type="int" Nullable="false" />
+          <Property Name="CodeTeacher" Type="int" Nullable="false" />
+          <Property Name="TryYear" Type="float" />
+          <Property Name="CodeUser" Type="int" />
+        </EntityType>
+        <EntityType Name="Recommendation">
+          <Key>
+            <PropertyRef Name="CodeRecommendation" />
+          </Key>
+          <Property Name="CodeRecommendation" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeLimitToTeacher" Type="int" />
+          <Property Name="RecommendationText" Type="nvarchar" MaxLength="100" />
+          <Property Name="Reply" Type="bit" />
+          <Property Name="NotTime" Type="bit" />
+          <Property Name="CodeUser" Type="int" />
+        </EntityType>
+        <EntityType Name="Request">
+          <Key>
+            <PropertyRef Name="CodeRequest" />
+          </Key>
+          <Property Name="CodeRequest" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeStudent" Type="int" Nullable="false" />
+          <Property Name="CodeLimit" Type="int" Nullable="false" />
+          <Property Name="MaxCosting" Type="money" />
+          <Property Name="PlayedForTime" Type="int" />
+        </EntityType>
+        <EntityType Name="Sector">
+          <Key>
+            <PropertyRef Name="IdSector" />
+          </Key>
+          <Property Name="IdSector" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameSector" Type="nchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Times">
+          <Key>
+            <PropertyRef Name="IdTime" />
+          </Key>
+          <Property Name="IdTime" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameTime" Type="nchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="TimeToUser">
+          <Key>
+            <PropertyRef Name="CodeTimeToUser" />
+          </Key>
+          <Property Name="CodeTimeToUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdUser" Type="int" />
+          <Property Name="IdTime" Type="int" />
+        </EntityType>
+        <EntityType Name="TryToLimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeTryToLimitToTeacher" />
+          </Key>
+          <Property Name="CodeTryToLimitToTeacher" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeLimitToTeacher" Type="int" Nullable="false" />
+          <Property Name="NamePlaceTeach" Type="nvarchar" MaxLength="50" />
+          <Property Name="MailRecommend" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PhoneRecommend" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Useres">
+          <Key>
+            <PropertyRef Name="CodeUser" />
+          </Key>
+          <Property Name="CodeUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateOfBirth" Type="date" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CodeStreet" Type="int" Nullable="false" />
+          <Property Name="CodeSector" Type="int" />
+          <Property Name="Min" Type="int" />
+          <Property Name="AgeMin" Type="int" />
+          <Property Name="AgeMax" Type="int" />
+          <Property Name="AddressX" Type="float" />
+          <Property Name="AddressY" Type="float" />
+          <Property Name="MinToLearn" Type="int" />
+        </EntityType>
+        <EntityType Name="Waiting">
+          <Key>
+            <PropertyRef Name="WaitingID" />
+          </Key>
+          <Property Name="WaitingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CodeUser" Type="int" />
+          <Property Name="CodeLimit" Type="int" />
+          <Property Name="CodeTime" Type="int" />
+          <Property Name="CodeMin" Type="int" />
+          <Property Name="CodeSector" Type="int" />
+        </EntityType>
+        <Association Name="FK_DiplomasToLimitToTeacher_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="1" />
+          <End Role="DiplomasToLimitToTeacher" Type="Self.DiplomasToLimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="DiplomasToLimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="0..1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Useres1">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeStudent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LimitToTeacher_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="1" />
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LimitToTeacher_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="LimitToTeacher">
+              <PropertyRef Name="CodeTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendation_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="0..1" />
+          <End Role="Recommendation" Type="Self.Recommendation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="Recommendation">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="CodeStudent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeToUser_Times">
+          <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+          <End Role="TimeToUser" Type="Self.TimeToUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Times">
+              <PropertyRef Name="IdTime" />
+            </Principal>
+            <Dependent Role="TimeToUser">
+              <PropertyRef Name="IdTime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeToUser_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="TimeToUser" Type="Self.TimeToUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="TimeToUser">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TryToLimitToTeacher_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="1" />
+          <End Role="TryToLimitToTeacher" Type="Self.TryToLimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="TryToLimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Useres_Sector">
+          <End Role="Sector" Type="Self.Sector" Multiplicity="0..1" />
+          <End Role="Useres" Type="Self.Useres" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sector">
+              <PropertyRef Name="IdSector" />
+            </Principal>
+            <Dependent Role="Useres">
+              <PropertyRef Name="CodeSector" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Sector">
+          <End Role="Sector" Type="Self.Sector" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sector">
+              <PropertyRef Name="IdSector" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeSector" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Times">
+          <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Times">
+              <PropertyRef Name="IdTime" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeTime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="LoveToLerningModelStoreContainer">
+          <EntitySet Name="DiplomasToLimitToTeacher" EntityType="Self.DiplomasToLimitToTeacher" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Lessons" EntityType="Self.Lessons" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Limit" EntityType="Self.Limit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LimitToTeacher" EntityType="Self.LimitToTeacher" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recommendation" EntityType="Self.Recommendation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sector" EntityType="Self.Sector" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Times" EntityType="Self.Times" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TimeToUser" EntityType="Self.TimeToUser" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TryToLimitToTeacher" EntityType="Self.TryToLimitToTeacher" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Useres" EntityType="Self.Useres" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Waiting" EntityType="Self.Waiting" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DiplomasToLimitToTeacher_LimitToTeacher" Association="Self.FK_DiplomasToLimitToTeacher_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="DiplomasToLimitToTeacher" EntitySet="DiplomasToLimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Limit" Association="Self.FK_Lessons_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Useres" Association="Self.FK_Lessons_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Useres1" Association="Self.FK_Lessons_Useres1">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LimitToTeacher_Limit" Association="Self.FK_LimitToTeacher_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LimitToTeacher_Useres" Association="Self.FK_LimitToTeacher_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendation_LimitToTeacher" Association="Self.FK_Recommendation_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="Recommendation" EntitySet="Recommendation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Limit" Association="Self.FK_Request_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Useres" Association="Self.FK_Request_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeToUser_Times" Association="Self.FK_TimeToUser_Times">
+            <End Role="Times" EntitySet="Times" />
+            <End Role="TimeToUser" EntitySet="TimeToUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeToUser_Useres" Association="Self.FK_TimeToUser_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="TimeToUser" EntitySet="TimeToUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TryToLimitToTeacher_LimitToTeacher" Association="Self.FK_TryToLimitToTeacher_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="TryToLimitToTeacher" EntitySet="TryToLimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Useres_Sector" Association="Self.FK_Useres_Sector">
+            <End Role="Sector" EntitySet="Sector" />
+            <End Role="Useres" EntitySet="Useres" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Limit" Association="Self.FK_Waiting_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Sector" Association="Self.FK_Waiting_Sector">
+            <End Role="Sector" EntitySet="Sector" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Times" Association="Self.FK_Waiting_Times">
+            <End Role="Times" EntitySet="Times" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Useres" Association="Self.FK_Waiting_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LoveToLerningModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DiplomasToLimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeDiplomaToLimitToTeacher" />
+          </Key>
+          <Property Name="CodeDiplomaToLimitToTeacher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeLimitToTeacher" Type="Int32" Nullable="false" />
+          <Property Name="Diploma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="LimitToTeacher" Relationship="Self.FK_DiplomasToLimitToTeacher_LimitToTeacher" FromRole="DiplomasToLimitToTeacher" ToRole="LimitToTeacher" />
+        </EntityType>
+        <EntityType Name="Lessons">
+          <Key>
+            <PropertyRef Name="CodeLesson" />
+          </Key>
+          <Property Name="CodeLesson" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeLimit" Type="Int32" />
+          <Property Name="CodeTeacher" Type="Int32" Nullable="false" />
+          <Property Name="CodeStudent" Type="Int32" />
+          <Property Name="DateLesson" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Limit" Relationship="Self.FK_Lessons_Limit" FromRole="Lessons" ToRole="Limit" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_Lessons_Useres" FromRole="Lessons" ToRole="Useres" />
+          <NavigationProperty Name="Useres1" Relationship="Self.FK_Lessons_Useres1" FromRole="Lessons" ToRole="Useres" />
+        </EntityType>
+        <EntityType Name="Limit">
+          <Key>
+            <PropertyRef Name="CodeLimit" />
+          </Key>
+          <Property Name="CodeLimit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameLimit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CodeParentLimit" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Lessons" Relationship="Self.FK_Lessons_Limit" FromRole="Limit" ToRole="Lessons" />
+          <NavigationProperty Name="LimitToTeacher" Relationship="Self.FK_LimitToTeacher_Limit" FromRole="Limit" ToRole="LimitToTeacher" />
+          <NavigationProperty Name="Request" Relationship="Self.FK_Request_Limit" FromRole="Limit" ToRole="Request" />
+          <NavigationProperty Name="Waiting" Relationship="Self.FK_Waiting_Limit" FromRole="Limit" ToRole="Waiting" />
+        </EntityType>
+        <EntityType Name="LimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeLimitToTeacher" />
+          </Key>
+          <Property Name="CodeLimitToTeacher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeLimit" Type="Int32" Nullable="false" />
+          <Property Name="CodeTeacher" Type="Int32" Nullable="false" />
+          <Property Name="TryYear" Type="Double" />
+          <Property Name="CodeUser" Type="Int32" />
+          <NavigationProperty Name="DiplomasToLimitToTeacher" Relationship="Self.FK_DiplomasToLimitToTeacher_LimitToTeacher" FromRole="LimitToTeacher" ToRole="DiplomasToLimitToTeacher" />
+          <NavigationProperty Name="Limit" Relationship="Self.FK_LimitToTeacher_Limit" FromRole="LimitToTeacher" ToRole="Limit" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_LimitToTeacher_Useres" FromRole="LimitToTeacher" ToRole="Useres" />
+          <NavigationProperty Name="Recommendation" Relationship="Self.FK_Recommendation_LimitToTeacher" FromRole="LimitToTeacher" ToRole="Recommendation" />
+          <NavigationProperty Name="TryToLimitToTeacher" Relationship="Self.FK_TryToLimitToTeacher_LimitToTeacher" FromRole="LimitToTeacher" ToRole="TryToLimitToTeacher" />
+        </EntityType>
+        <EntityType Name="Recommendation">
+          <Key>
+            <PropertyRef Name="CodeRecommendation" />
+          </Key>
+          <Property Name="CodeRecommendation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeLimitToTeacher" Type="Int32" />
+          <Property Name="RecommendationText" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Reply" Type="Boolean" />
+          <Property Name="NotTime" Type="Boolean" />
+          <Property Name="CodeUser" Type="Int32" />
+          <NavigationProperty Name="LimitToTeacher" Relationship="Self.FK_Recommendation_LimitToTeacher" FromRole="Recommendation" ToRole="LimitToTeacher" />
+        </EntityType>
+        <EntityType Name="Request">
+          <Key>
+            <PropertyRef Name="CodeRequest" />
+          </Key>
+          <Property Name="CodeRequest" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeStudent" Type="Int32" Nullable="false" />
+          <Property Name="CodeLimit" Type="Int32" Nullable="false" />
+          <Property Name="MaxCosting" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PlayedForTime" Type="Int32" />
+          <NavigationProperty Name="Limit" Relationship="Self.FK_Request_Limit" FromRole="Request" ToRole="Limit" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_Request_Useres" FromRole="Request" ToRole="Useres" />
+        </EntityType>
+        <EntityType Name="Sector">
+          <Key>
+            <PropertyRef Name="IdSector" />
+          </Key>
+          <Property Name="IdSector" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameSector" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_Useres_Sector" FromRole="Sector" ToRole="Useres" />
+          <NavigationProperty Name="Waiting" Relationship="Self.FK_Waiting_Sector" FromRole="Sector" ToRole="Waiting" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Times">
+          <Key>
+            <PropertyRef Name="IdTime" />
+          </Key>
+          <Property Name="IdTime" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameTime" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="TimeToUser" Relationship="Self.FK_TimeToUser_Times" FromRole="Times" ToRole="TimeToUser" />
+          <NavigationProperty Name="Waiting" Relationship="Self.FK_Waiting_Times" FromRole="Times" ToRole="Waiting" />
+        </EntityType>
+        <EntityType Name="TimeToUser">
+          <Key>
+            <PropertyRef Name="CodeTimeToUser" />
+          </Key>
+          <Property Name="CodeTimeToUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdUser" Type="Int32" />
+          <Property Name="IdTime" Type="Int32" />
+          <NavigationProperty Name="Times" Relationship="Self.FK_TimeToUser_Times" FromRole="TimeToUser" ToRole="Times" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_TimeToUser_Useres" FromRole="TimeToUser" ToRole="Useres" />
+        </EntityType>
+        <EntityType Name="TryToLimitToTeacher">
+          <Key>
+            <PropertyRef Name="CodeTryToLimitToTeacher" />
+          </Key>
+          <Property Name="CodeTryToLimitToTeacher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeLimitToTeacher" Type="Int32" Nullable="false" />
+          <Property Name="NamePlaceTeach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MailRecommend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PhoneRecommend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="LimitToTeacher" Relationship="Self.FK_TryToLimitToTeacher_LimitToTeacher" FromRole="TryToLimitToTeacher" ToRole="LimitToTeacher" />
+        </EntityType>
+        <EntityType Name="Useres">
+          <Key>
+            <PropertyRef Name="CodeUser" />
+          </Key>
+          <Property Name="CodeUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CodeStreet" Type="Int32" Nullable="false" />
+          <Property Name="CodeSector" Type="Int32" />
+          <Property Name="Min" Type="Int32" />
+          <Property Name="AgeMin" Type="Int32" />
+          <Property Name="AgeMax" Type="Int32" />
+          <Property Name="AddressX" Type="Double" />
+          <Property Name="AddressY" Type="Double" />
+          <Property Name="MinToLearn" Type="Int32" />
+          <NavigationProperty Name="Lessons" Relationship="Self.FK_Lessons_Useres" FromRole="Useres" ToRole="Lessons" />
+          <NavigationProperty Name="Lessons1" Relationship="Self.FK_Lessons_Useres1" FromRole="Useres" ToRole="Lessons" />
+          <NavigationProperty Name="LimitToTeacher" Relationship="Self.FK_LimitToTeacher_Useres" FromRole="Useres" ToRole="LimitToTeacher" />
+          <NavigationProperty Name="Request" Relationship="Self.FK_Request_Useres" FromRole="Useres" ToRole="Request" />
+          <NavigationProperty Name="Sector" Relationship="Self.FK_Useres_Sector" FromRole="Useres" ToRole="Sector" />
+          <NavigationProperty Name="TimeToUser" Relationship="Self.FK_TimeToUser_Useres" FromRole="Useres" ToRole="TimeToUser" />
+          <NavigationProperty Name="Waiting" Relationship="Self.FK_Waiting_Useres" FromRole="Useres" ToRole="Waiting" />
+        </EntityType>
+        <EntityType Name="Waiting">
+          <Key>
+            <PropertyRef Name="WaitingID" />
+          </Key>
+          <Property Name="WaitingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CodeUser" Type="Int32" />
+          <Property Name="CodeLimit" Type="Int32" />
+          <Property Name="CodeTime" Type="Int32" />
+          <Property Name="CodeMin" Type="Int32" />
+          <Property Name="CodeSector" Type="Int32" />
+          <NavigationProperty Name="Limit" Relationship="Self.FK_Waiting_Limit" FromRole="Waiting" ToRole="Limit" />
+          <NavigationProperty Name="Sector" Relationship="Self.FK_Waiting_Sector" FromRole="Waiting" ToRole="Sector" />
+          <NavigationProperty Name="Times" Relationship="Self.FK_Waiting_Times" FromRole="Waiting" ToRole="Times" />
+          <NavigationProperty Name="Useres" Relationship="Self.FK_Waiting_Useres" FromRole="Waiting" ToRole="Useres" />
+        </EntityType>
+        <Association Name="FK_DiplomasToLimitToTeacher_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="1" />
+          <End Role="DiplomasToLimitToTeacher" Type="Self.DiplomasToLimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="DiplomasToLimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="0..1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lessons_Useres1">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="Lessons" Type="Self.Lessons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Lessons">
+              <PropertyRef Name="CodeStudent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LimitToTeacher_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="1" />
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Limit">
+          <End Role="Limit" Type="Self.Limit" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Limit">
+              <PropertyRef Name="CodeLimit" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeLimit" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LimitToTeacher_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="LimitToTeacher">
+              <PropertyRef Name="CodeTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendation_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="0..1" />
+          <End Role="Recommendation" Type="Self.Recommendation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="Recommendation">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TryToLimitToTeacher_LimitToTeacher">
+          <End Role="LimitToTeacher" Type="Self.LimitToTeacher" Multiplicity="1" />
+          <End Role="TryToLimitToTeacher" Type="Self.TryToLimitToTeacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Principal>
+            <Dependent Role="TryToLimitToTeacher">
+              <PropertyRef Name="CodeLimitToTeacher" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Request_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="1" />
+          <End Role="Request" Type="Self.Request" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Request">
+              <PropertyRef Name="CodeStudent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Useres_Sector">
+          <End Role="Sector" Type="Self.Sector" Multiplicity="0..1" />
+          <End Role="Useres" Type="Self.Useres" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sector">
+              <PropertyRef Name="IdSector" />
+            </Principal>
+            <Dependent Role="Useres">
+              <PropertyRef Name="CodeSector" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Sector">
+          <End Role="Sector" Type="Self.Sector" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sector">
+              <PropertyRef Name="IdSector" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeSector" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeToUser_Times">
+          <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+          <End Role="TimeToUser" Type="Self.TimeToUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Times">
+              <PropertyRef Name="IdTime" />
+            </Principal>
+            <Dependent Role="TimeToUser">
+              <PropertyRef Name="IdTime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Times">
+          <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Times">
+              <PropertyRef Name="IdTime" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeTime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeToUser_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="TimeToUser" Type="Self.TimeToUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="TimeToUser">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Waiting_Useres">
+          <End Role="Useres" Type="Self.Useres" Multiplicity="0..1" />
+          <End Role="Waiting" Type="Self.Waiting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Useres">
+              <PropertyRef Name="CodeUser" />
+            </Principal>
+            <Dependent Role="Waiting">
+              <PropertyRef Name="CodeUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="LoveToLerningEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DiplomasToLimitToTeacher" EntityType="Self.DiplomasToLimitToTeacher" />
+          <EntitySet Name="Lessons" EntityType="Self.Lessons" />
+          <EntitySet Name="Limit" EntityType="Self.Limit" />
+          <EntitySet Name="LimitToTeacher" EntityType="Self.LimitToTeacher" />
+          <EntitySet Name="Recommendation" EntityType="Self.Recommendation" />
+          <EntitySet Name="Request" EntityType="Self.Request" />
+          <EntitySet Name="Sector" EntityType="Self.Sector" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="Times" EntityType="Self.Times" />
+          <EntitySet Name="TimeToUser" EntityType="Self.TimeToUser" />
+          <EntitySet Name="TryToLimitToTeacher" EntityType="Self.TryToLimitToTeacher" />
+          <EntitySet Name="Useres" EntityType="Self.Useres" />
+          <EntitySet Name="Waiting" EntityType="Self.Waiting" />
+          <AssociationSet Name="FK_DiplomasToLimitToTeacher_LimitToTeacher" Association="Self.FK_DiplomasToLimitToTeacher_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="DiplomasToLimitToTeacher" EntitySet="DiplomasToLimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Limit" Association="Self.FK_Lessons_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Useres" Association="Self.FK_Lessons_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lessons_Useres1" Association="Self.FK_Lessons_Useres1">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Lessons" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LimitToTeacher_Limit" Association="Self.FK_LimitToTeacher_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Limit" Association="Self.FK_Request_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Limit" Association="Self.FK_Waiting_Limit">
+            <End Role="Limit" EntitySet="Limit" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LimitToTeacher_Useres" Association="Self.FK_LimitToTeacher_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendation_LimitToTeacher" Association="Self.FK_Recommendation_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="Recommendation" EntitySet="Recommendation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TryToLimitToTeacher_LimitToTeacher" Association="Self.FK_TryToLimitToTeacher_LimitToTeacher">
+            <End Role="LimitToTeacher" EntitySet="LimitToTeacher" />
+            <End Role="TryToLimitToTeacher" EntitySet="TryToLimitToTeacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Request_Useres" Association="Self.FK_Request_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Request" EntitySet="Request" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Useres_Sector" Association="Self.FK_Useres_Sector">
+            <End Role="Sector" EntitySet="Sector" />
+            <End Role="Useres" EntitySet="Useres" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Sector" Association="Self.FK_Waiting_Sector">
+            <End Role="Sector" EntitySet="Sector" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeToUser_Times" Association="Self.FK_TimeToUser_Times">
+            <End Role="Times" EntitySet="Times" />
+            <End Role="TimeToUser" EntitySet="TimeToUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Times" Association="Self.FK_Waiting_Times">
+            <End Role="Times" EntitySet="Times" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeToUser_Useres" Association="Self.FK_TimeToUser_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="TimeToUser" EntitySet="TimeToUser" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Waiting_Useres" Association="Self.FK_Waiting_Useres">
+            <End Role="Useres" EntitySet="Useres" />
+            <End Role="Waiting" EntitySet="Waiting" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LoveToLerningModelStoreContainer" CdmEntityContainer="LoveToLerningEntities">
+          <EntitySetMapping Name="DiplomasToLimitToTeacher">
+            <EntityTypeMapping TypeName="LoveToLerningModel.DiplomasToLimitToTeacher">
+              <MappingFragment StoreEntitySet="DiplomasToLimitToTeacher">
+                <ScalarProperty Name="CodeDiplomaToLimitToTeacher" ColumnName="CodeDiplomaToLimitToTeacher" />
+                <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+                <ScalarProperty Name="Diploma" ColumnName="Diploma" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Lessons">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Lessons">
+              <MappingFragment StoreEntitySet="Lessons">
+                <ScalarProperty Name="CodeLesson" ColumnName="CodeLesson" />
+                <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+                <ScalarProperty Name="CodeTeacher" ColumnName="CodeTeacher" />
+                <ScalarProperty Name="CodeStudent" ColumnName="CodeStudent" />
+                <ScalarProperty Name="DateLesson" ColumnName="DateLesson" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Limit">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Limit">
+              <MappingFragment StoreEntitySet="Limit">
+                <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+                <ScalarProperty Name="NameLimit" ColumnName="NameLimit" />
+                <ScalarProperty Name="CodeParentLimit" ColumnName="CodeParentLimit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LimitToTeacher">
+            <EntityTypeMapping TypeName="LoveToLerningModel.LimitToTeacher">
+              <MappingFragment StoreEntitySet="LimitToTeacher">
+                <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+                <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+                <ScalarProperty Name="CodeTeacher" ColumnName="CodeTeacher" />
+                <ScalarProperty Name="TryYear" ColumnName="TryYear" />
+                <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recommendation">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Recommendation">
+              <MappingFragment StoreEntitySet="Recommendation">
+                <ScalarProperty Name="CodeRecommendation" ColumnName="CodeRecommendation" />
+                <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+                <ScalarProperty Name="RecommendationText" ColumnName="RecommendationText" />
+                <ScalarProperty Name="Reply" ColumnName="Reply" />
+                <ScalarProperty Name="NotTime" ColumnName="NotTime" />
+                <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Request">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Request">
+              <MappingFragment StoreEntitySet="Request">
+                <ScalarProperty Name="CodeRequest" ColumnName="CodeRequest" />
+                <ScalarProperty Name="CodeStudent" ColumnName="CodeStudent" />
+                <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+                <ScalarProperty Name="MaxCosting" ColumnName="MaxCosting" />
+                <ScalarProperty Name="PlayedForTime" ColumnName="PlayedForTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sector">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Sector">
+              <MappingFragment StoreEntitySet="Sector">
+                <ScalarProperty Name="IdSector" ColumnName="IdSector" />
+                <ScalarProperty Name="NameSector" ColumnName="NameSector" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="LoveToLerningModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Times">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Times">
+              <MappingFragment StoreEntitySet="Times">
+                <ScalarProperty Name="IdTime" ColumnName="IdTime" />
+                <ScalarProperty Name="NameTime" ColumnName="NameTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TimeToUser">
+            <EntityTypeMapping TypeName="LoveToLerningModel.TimeToUser">
+              <MappingFragment StoreEntitySet="TimeToUser">
+                <ScalarProperty Name="CodeTimeToUser" ColumnName="CodeTimeToUser" />
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+                <ScalarProperty Name="IdTime" ColumnName="IdTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TryToLimitToTeacher">
+            <EntityTypeMapping TypeName="LoveToLerningModel.TryToLimitToTeacher">
+              <MappingFragment StoreEntitySet="TryToLimitToTeacher">
+                <ScalarProperty Name="CodeTryToLimitToTeacher" ColumnName="CodeTryToLimitToTeacher" />
+                <ScalarProperty Name="CodeLimitToTeacher" ColumnName="CodeLimitToTeacher" />
+                <ScalarProperty Name="NamePlaceTeach" ColumnName="NamePlaceTeach" />
+                <ScalarProperty Name="MailRecommend" ColumnName="MailRecommend" />
+                <ScalarProperty Name="PhoneRecommend" ColumnName="PhoneRecommend" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Useres">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Useres">
+              <MappingFragment StoreEntitySet="Useres">
+                <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+                <ScalarProperty Name="FName" ColumnName="FName" />
+                <ScalarProperty Name="LName" ColumnName="LName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="CodeStreet" ColumnName="CodeStreet" />
+                <ScalarProperty Name="CodeSector" ColumnName="CodeSector" />
+                <ScalarProperty Name="Min" ColumnName="Min" />
+                <ScalarProperty Name="AgeMin" ColumnName="AgeMin" />
+                <ScalarProperty Name="AgeMax" ColumnName="AgeMax" />
+                <ScalarProperty Name="AddressX" ColumnName="AddressX" />
+                <ScalarProperty Name="AddressY" ColumnName="AddressY" />
+                <ScalarProperty Name="MinToLearn" ColumnName="MinToLearn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Waiting">
+            <EntityTypeMapping TypeName="LoveToLerningModel.Waiting">
+              <MappingFragment StoreEntitySet="Waiting">
+                <ScalarProperty Name="WaitingID" ColumnName="WaitingID" />
+                <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+                <ScalarProperty Name="CodeLimit" ColumnName="CodeLimit" />
+                <ScalarProperty Name="CodeTime" ColumnName="CodeTime" />
+                <ScalarProperty Name="CodeMin" ColumnName="CodeMin" />
+                <ScalarProperty Name="CodeSector" ColumnName="CodeSector" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

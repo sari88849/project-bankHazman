@@ -1,0 +1,58 @@
+<!-- קומפוננטה זו תפקידה- אחרי שנמצאו המורה והתלמיד- לאשר את הפעולה ולקבוע תאריך -->
+<link rel="stylesheet" href="confirm-for-waiting.component.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+<!-- <div style="margin-left: 50%;"> -->
+<!-- <h1>{{l}}</h1> -->
+<!-- <h3 *ngIf='l!=null'>פרטי השיעור להלן</h3><br><br> -->
+
+<body>
+    <h1 style="text-align: center;">שמירת פרטי שיעור</h1><br><br>
+    <!-- <div *ngIf='!l'> -->
+    <div style="margin-left: 45%;">
+        <label style="margin-left: 5%;">:המורה</label><br>
+        <input type="text" pInputText [(ngModel)]="usert" disabled><br><br>
+        <label style="margin-left: 5%;">:התלמיד</label><br>
+        <input type="text" pInputText [(ngModel)]="users" disabled> <br><br>
+        <label style="margin-left: 5%;">:ילמדו שיעור</label><br>
+        <input type="text" pInputText [(ngModel)]="limit" disabled><br><br>
+        <!-- <input type="text" [(ngModel)]='waitingId'> -->
+        <label style="margin-left: 5%;">בחר
+            תאריך</label><br>
+        <p-calendar [(ngModel)]="DateLess" dateFormat="dd/mm/yy" [showIcon]="true"></p-calendar><br><br>
+
+        <!-- <input type="date" pInputText [(ngModel)]="DateLess"><label>בחר תאריך</label><br><br> -->
+        <input style="margin-left: 3%;" *ngIf='this.ifClick==false' type="button" pInputText (click)="AddLesson()"
+            value="לאישור השיעור- לחץ עלי"><br><br>
+    </div>
+    <p *ngIf='this.ifClick==true' style="background-color: palevioletred; text-align: center; font-size: 150%;"
+        class="animate__animated  animate__heartBeat animate__repeat-3">השיעור נוסף
+        בהצלחה</p>
+    <!-- </div> -->
+    <div *ngIf='this.ifNotBeen==true'>
+        השיעור לא קיים
+    </div>
+
+    <div *ngIf='this.ifBeen==true'>
+        השיעור כבר קיים
+    </div>
+</body>
+
+<!-- </div> -->
+
+<!-- <a pInputText>{{teacherId}} :הקוד שלך</a><br><br> -->
+
+<!-- <input type="email" pInputText><br>
+<input type="tel" pInputText><br>
+<input type="time" pInputText><br>
+<input type="week" pInputText><br> -->

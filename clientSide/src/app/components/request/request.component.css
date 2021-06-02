@@ -1,0 +1,31 @@
+#qqq{
+    margin-left: 90%;
+}
+b{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:300%;
+}
+/* #aaa{
+    margin-left: 43%;
+} */
+#mm{
+    margin-left: 41%;
+    width: 250px;
+    height: 55px;
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#ppp{
+    font-size: 120%;
+}
+body{
+    background-image: url('../../../assets/picture/reka1.jpg');
+    background-attachment: fixed;  
+  background-size: 100% 100%;
+  height: 100vh 
+}

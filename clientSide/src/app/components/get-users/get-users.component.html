@@ -1,0 +1,111 @@
+<!-- קומפוננטה זו מציגה את כל המשתמשים -->
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+        <button (click)="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <br>
+        <img src="../../../assets/picture/getUser1.jpg" alt="" id="xxx"
+            style="width: 35%; text-align: center; margin-left: 35%;" (click)="getUsers()"><br>
+        <!-- <a href="#" class="w3-bar-item w3-button" style="text-align: center;" (click)="getUsers()" >להצגת המשתמשים</a> -->
+        <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">להצגת
+            המשתמשים</button>
+
+        <br><br><br>
+        <img src="../../../assets/picture/ilearn.jpg" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+            (click)="toListing()">
+        <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לתפריט
+            הלימודים</button>
+        <br><br><br>
+        <img src="../../../assets/picture/myItem.png" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+            (click)="MyItem()">
+        <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לעדכון
+            הפרטים</button>
+        <br> <br><br>
+        <img src="../../../assets/picture/request.jpg" alt="" style="width: 35%; text-align: center; margin-left: 35%;"
+            (click)="AddRequest()">
+        <button (click)="getUsers()" style=" margin-left: 19%; background-color: white; border-color: white;">לבקשת
+            שיעור</button>
+
+        <!-- <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a> -->
+    </div>
+
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge w3-right" (click)="openRightMenu()">&#9776;</button>
+        <div class="w3-container">
+            <h1></h1>
+        </div>
+    </div>
+
+
+
+
+    <h1>רשימת המשתמשים</h1>
+    <!-- <table>
+    <tr>
+        <th>הצגת התחום</th>
+        <th>שם עיר</th>
+        <th>טלפון</th>
+        <th>כתובת מייל</th>
+        <th>שם משפחה</th>
+        <th>שם פרטי</th>
+        
+    </tr>
+    <tr *ngFor='let a of listU'> 
+        <td><button (click)="limit()">להצגת התחום</button></td>
+        <td>???</td>
+        <td>{{a.Phone}}</td>
+        <td>{{a.Mail}}</td>
+        <td>{{a.LName}}</td>
+        <td>{{a.FName}}</td>
+    </tr>
+</table> -->
+
+
+
+
+
+    <!-- <div style="margin-bottom: 1em">
+    <button type="button" pButton icon="pi pi-chevron-left" (click)="prev()" style="margin-right:.5em" [disabled]="isFirstPage()"></button>
+    <button type="button" pButton icon="pi pi-refresh" (click)="reset()" style="margin-right:.5em"></button>
+    <button type="button" pButton icon="pi pi-chevron-right" (click)="next()" [disabled]="isLastPage()"></button>
+</div> -->
+    <p-table [columns]="headersOfUsers" [value]="listU" [paginator]="true" [rows]="8" [showCurrentPageReport]="true"
+        currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th>לפרטים נוספים</th>
+                <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+                    {{col.header}}
+
+
+                    <p-sortIcon [field]="col.field" ariaLabel="Activate to sort"
+                        ariaLabelDesc="Activate to sort in descending order"
+                        ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+
+                </th>
+
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+                <td><button type="text" pButton label="Basic" (click)="op1.toggle($event)"></button>
+                    <p-overlayPanel #op1>
+                        <ng-template pTemplate>
+                            <h3>שלום</h3>
+                        </ng-template>
+                    </p-overlayPanel>
+                </td>
+
+
+
+                <td *ngFor="let col of columns">
+                    {{rowData[col.field]}}
+                </td>
+
+
+
+            </tr>
+        </ng-template>
+    </p-table>
+</body>
